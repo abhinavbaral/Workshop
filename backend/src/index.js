@@ -10,6 +10,6 @@ app.get("/greet",(req, res) =>
 {
     res.send("Hello. This is Greeting route");
 });
-app.listen(port , () =>
-{console.log(`server is running on http://local host: $(port)`);
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
 });
