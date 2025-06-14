@@ -1,0 +1,9 @@
+MERN
+
+
+Day 1 : Backend Using Express
+Steps (inside Workshop/backend)
+ 1. Create folder for Backend
+ 2. npm init -y
+ 3. npm i  cookie-parser datauri cors doten bcryptjs cloudinary express jsonwebtoken mongoose multer
+ 4.
