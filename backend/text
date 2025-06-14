@@ -1,9 +1,20 @@
 MERN
-
+ Atlas password = DjBfpZH9PZPYASWI
 
 Day 1 : Backend Using Express
 Steps (inside Workshop/backend)
  1. Create folder for Backend
  2. npm init -y
- 3. npm i  cookie-parser datauri cors doten bcryptjs cloudinary express jsonwebtoken mongoose multer
- 4.
+ 3. npm i  cookie-parser datauri cors doten bcryptjs cloudinary express jsonwebtoken mongoose multer nodemon
+ 4. create src ( insides src controllers, db, middleware, models , routes , utils and js files app.js, index.js as well as .env )
+ 5. Insise .env
+ MONGODM_URI= mongodb+srv://abhinavbaral:DjBfpZH9PZPYASWI@cluster0.sd8bl1o.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0 (get through Mongo db Atlas)
+CRS-ORIGIN=*
+PORT= 3000
+JWT_SECRET= 214969e34da6246740894
+CLOUD_NAME= dhajyei0w (through cloudianry)
+API_KEY= 813864788769629 (through cloudianry)
+API_SECRET= aQy_ACkWAHr5EotDOWIBaLpvykg (through cloudianry)
+6. in package.json
+   "dev": "nodemon src/index.js"
+   7. 
