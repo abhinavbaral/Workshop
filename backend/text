@@ -17,4 +17,4 @@ API_KEY= 813864788769629 (through cloudianry)
 API_SECRET= aQy_ACkWAHr5EotDOWIBaLpvykg (through cloudianry)
 6. in package.json
    "dev": "nodemon src/index.js"
-   7. 
+   7. for frontend npm i react-router-dom

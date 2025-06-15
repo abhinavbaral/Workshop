@@ -1,14 +1,21 @@
-import React from 'react'
-import Header from './components/Header';
-
+import Header from "./components/Header";
+import About from "./components/About";
+import Navbar from "./components/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-        <div>App</div>
-    <Header />
+      <BrowserRouter>
+ <Navbar />
+        <Routes>
+         
+          <Route path="/started" element={<Header />} />
+          <Route path="/about-us" element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
-}
+};
 
-export default App
+export default App;
